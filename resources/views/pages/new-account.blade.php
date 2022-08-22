@@ -15,7 +15,7 @@
 <!-- As a link -->
 <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('index') }}"> <h1 style="font-weight: bolder; color: #0079c1">NationsStar Bank PLC</h1></a>
+        <a class="navbar-brand" href="{{ route('homepage') }}"> <h1 style="font-weight: bolder; color: #0079c1">Internacional Trust Bank</h1></a>
     </div>
 </nav>
 

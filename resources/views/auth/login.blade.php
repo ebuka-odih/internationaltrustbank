@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Meta -->
-    <meta name="description" content="NationsStar Bank PLC.">
+    <meta name="description" content="Internacional Trust Bank.">
     <meta name="author" content="ThemePixels">
 
-    <title>NationsStar Bank PLC</title>
+    <title>Internacional Trust Bank</title>
 
     <!-- vendor css -->
     <link href="../lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -24,8 +24,8 @@
     <div class="d-flex align-items-center justify-content-center bg-br-primary ht-100v">
 
       <div class="login-wrapper wd-300 wd-xs-400 pd-25 pd-xs-40 bg-white rounded shadow-base">
-          <a href="{{ route('index') }}">
-              <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> NationsStar <span class="tx-info"> Bank PLC</span> <span class="tx-normal">]</span></div>
+          <a href="{{ route('homepage') }}">
+              <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> InternacionalTrust  <span class="tx-info"> Bank</span><span class="tx-normal">]</span></div>
           </a>
           <form class="mt-4" action="{{ route('login') }}" method="POST">
               @csrf
