@@ -78,7 +78,7 @@
                 <a target="_blank" href="mailto:admin@nestlecity.com?subject=Mail from Internacional Trust Bank Bank" class="text_white text-center no_text_deco no_color_on_hover" style=" width: 100%; height: 100%;"><i class="fa fa-envelope text_white"></i>&nbsp; Contact Us</a>
             </div>
             <div class="up_button text-center"><a style="width: 100%; height: 100%;" class="text_white no_text_deco no_color_on_hover" href="{{ route('login') }}">LOG IN</a></div>
-            <div class="down_button2 text-center"><a style="width: 100%; height: 100%;" class="no_color_on_hover text_white no_text_deco" target="_blank" href="{{ route('register') }}">OPEN ACCOUNT</a></div>
+            <div class="down_button2 text-center"><a style="width: 100%; height: 100%;" class="no_color_on_hover text_white no_text_deco" target="_blank" href="{{ route('reg_new_account') }}">OPEN ACCOUNT</a></div>
         </div>
 
 
