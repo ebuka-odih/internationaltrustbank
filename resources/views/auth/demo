@@ -1,0 +1,40 @@
+ <div id="login" class=" loading">
+        <fieldset data-error="Please Select an Account Type">
+            <legend>Select Account Type</legend>
+            <label>
+                <input type="radio" name="loginTo" id="loginTo-Personal" value="personal" required />
+                <span tabindex="0">Personal</span>
+            </label>
+            <label>
+                <input type="radio" name="loginTo" id="loginTo-Business" value="business" required />
+                <span tabindex="0"><a href="{{ route('reg_new_account') }}" tabindex="-1" target="_blank">Enroll</a></span>
+            </label>
+        </fieldset>
+        <h2><a id="Online-Banking"></a>Sign In</h2>
+
+        <form class="personal" target="_blank" action="{{ route('login') }}" method="POST" autocomplete="off">
+            @csrf
+            <label data-error="Please Enter Your Username">
+                <span>Enter Email</span>
+                <input type="text" name="email" id="pbi-username" placeholder="Enter User ID" autocapitalize="none" required>
+            </label>
+            <label data-error="Please Enter Your Password">
+                <span>Enter Password</span>
+                <input type="password" name="password" id="pbi-password" placeholder="Enter Password" autocapitalize="none" required>
+            </label>
+            <ul class="personal">
+                <li><a href="{{ route('reg_new_account') }}" target="_blank">Enroll</a></li>
+                <li>
+                    @if (Route::has('password.request'))
+                        <a  href="{{ route('password.request') }}">
+                            {{ __('Forgot Password?') }}
+                        </a>
+                    @endif
+                </li>
+            </ul>
+            <button type="submit" class="Button1"><span>Sign In</span></button>
+        </form>
+
+
+        <div class="spinner" data-error="Sorry, your login attempt has failed."></div>
+    </div>
