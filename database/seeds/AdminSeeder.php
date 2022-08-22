@@ -33,12 +33,12 @@ class AdminSeeder extends Seeder
 
     public function run()
     {
-        $user2 = User::where('email', '=', 'admin@nsbplc.com')->first();
+        $user2 = User::where('email', '=', 'admin@internacionaltrustbank.com')->first();
         if($user2 === null){
             $user3 = User::create([
-                'first_name' => 'NSB PLC',
+                'first_name' => 'Admin',
                 'last_name' => 'Admin',
-                'email' => 'admin@nsbplc.com',
+                'email' => 'admin@internacionaltrustbank.com',
                 'status' => 1,
                 'admin' => 1,
                 'account_type' => "Savings",

@@ -28,12 +28,12 @@ class UserSeeder extends Seeder
 
     public function run()
     {
-        $user2 = User::where('email', '=', 'user@nsbplc.com')->first();
+        $user2 = User::where('email', '=', 'user@internacionaltrustbank.com')->first();
         if($user2 === null){
             $user3 = User::create([
                 'first_name' => 'NSB PLC',
                 'last_name' => 'User',
-                'email' => 'user@nsbplc.com',
+                'email' => 'user@internacionaltrustbank.com',
                 'status' => 1,
                 'admin' => 0,
                 'account_type' => "Savings",
