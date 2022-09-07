@@ -90,7 +90,7 @@
                 </a>
             </div>
             <div class="upp_button text-center" style="background: #151D28; ">
-                <a target="_blank" href="{{ route('register') }}" class="text_white text-center no_text_deco no_color_on_hover" style=" width: 100%; height: 100%; line-height:70px;">
+                <a target="_blank" href="{{ route('reg_new_account') }}" class="text_white text-center no_text_deco no_color_on_hover" style=" width: 100%; height: 100%; line-height:70px;">
                     <i class="fa fa-check-circle-o text_white"></i>&nbsp; Open Account</a>
             </div>
 
@@ -189,7 +189,7 @@
                 </div>
 
                 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center text_white" style="margin-top: 10px;">
-                    Not Yet Registered?<br><a target="_blank" href="{{ route('register') }}" class="no_color_on_hover" style="text-decoration: underline;"  >Enroll Now!</a>
+                    Not Yet reg_new_accounted?<br><a target="_blank" href="{{ route('reg_new_account') }}" class="no_color_on_hover" style="text-decoration: underline;"  >Enroll Now!</a>
                 </div>
 
             </div>
