@@ -29,7 +29,7 @@
                     <div class="nav-top-access">
                         <ul>
                             <li><a target="_blank" href="{{ route('login') }}" style="color:white"><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-                            <li><a target="_blank" href="{{ route('register') }}" style="color:white"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Open Account</a></li>
+                            <li><a target="_blank" href="{{ route('reg_new_account') }}" style="color:white"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Open Account</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     </li>
                     <li class="nav-search hidden-sm hidden-xs"><i class="fa fa-search" style="color: white;"></i></li>
 
-                    <li><a class="hidden-lg hidden-md" href="{{ route('register') }}" style="color: white;">Register</a></li>
+                    <li><a class="hidden-lg hidden-md" href="{{ route('reg_new_account') }}" style="color: white;">reg_new_account</a></li>
                     <li>
                         <a class="hidden-lg hidden-md" href="{{ route('login') }}" style="color: white;">Login</a>
                     </li>
