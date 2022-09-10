@@ -108,4 +108,42 @@ class ClientAccountCreation extends Controller
         return view('pages.wait');
     }
 
+
+    protected function getData(Request $request)
+    {
+        $rules = [
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'email' => 'required|unique:users',
+            'password' => 'required|string|min:5|confirmed',
+            'country' => 'nullable',
+            'avatar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'state' => 'nullable',
+            'city' => 'nullable',
+            'address' => 'nullable',
+            'pass' => 'nullable',
+            'gender' => 'nullable',
+            'm_status' => 'nullable',
+            'phone' => 'nullable',
+            'dob' => 'nullable',
+            'account_type' => 'nullable',
+            'preferred_currency' => 'nullable',
+
+            'cus_identification' => 'nullable',
+            'cus_idnumber' => 'nullable',
+            'cus_expiry	' => 'nullable',
+            'cus_image	' => 'nullable',
+
+            'occupation' => 'nullable',
+            'position' => 'nullable',
+            'annual_salary' => 'nullable',
+            'office_name' => 'nullable',
+            'office_address' => 'nullable',
+            'employer_name' => 'nullable',
+        ];
+
+        return $request->validate($rules);
+    }
+
+
 }
