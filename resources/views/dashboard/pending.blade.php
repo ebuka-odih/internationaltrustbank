@@ -90,7 +90,7 @@
             <!-- Left Section -->
             <div class="d-flex align-items-center">
                 <!-- Logo -->
-                <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
+                <a class="fw-semibold text-white tracking-wide" href="{{ route('homepage') }}">
                     Nations Star Bank<span class="opacity-75"> PLC</span>
                 </a>
                 <!-- END Logo -->
