@@ -91,7 +91,7 @@
             <div class="d-flex align-items-center">
                 <!-- Logo -->
                 <a class="fw-semibold text-white tracking-wide" href="{{ route('homepage') }}">
-                    Nations Star Bank<span class="opacity-75"> PLC</span>
+                    Internacional Trust<span class="opacity-75"> Bank</span>
                 </a>
                 <!-- END Logo -->
             </div>
