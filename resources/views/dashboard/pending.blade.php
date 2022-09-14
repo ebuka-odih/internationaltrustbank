@@ -169,7 +169,7 @@
                     <p>
                         Please contact support for account activation
                     </p>
-                    <p><a href="mailto:support@nsbplc.com">support@nsbplc.com</a></p>
+                    <p><a href="mailto:support@internacionaltrustbank.com">support@internacionaltrustbank.com</a></p>
 
                 </div>
             </div>
