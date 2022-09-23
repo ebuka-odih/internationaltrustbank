@@ -88,7 +88,7 @@
         <div class="smini-visible-block">
             <div class="content-header bg-header-dark">
                 <!-- Logo -->
-                <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
+                <a class="fw-semibold text-white tracking-wide" href="{{ route('homepage') }}">
                     Nations Star Bank<span class="opacity-75"> PLC</span>
                 </a>
                 <!-- END Logo -->
@@ -103,7 +103,7 @@
         <div class="smini-hidden">
             <div class="content-header justify-content-lg-center bg-header-dark">
                 <!-- Logo -->
-                <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
+                <a class="fw-semibold text-white tracking-wide" href="{{ route('homepage') }}">
                     NationsStar<span class="opacity-75"> Bank</span>
                     <span class="fw-normal">PLC</span>
                 </a>

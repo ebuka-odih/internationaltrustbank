@@ -154,6 +154,7 @@
         <!-- END Navigation -->
 
         <!-- Page Content -->
+        @if(auth()->user()->status == 0)
         <div class="content">
             <!-- Your Block -->
             <div class="block block-rounded">
@@ -175,6 +176,28 @@
             </div>
             <!-- END Your Block -->
         </div>
+        @else
+            <div class="content">
+                <!-- Your Block -->
+                <div class="block block-rounded">
+                    <div class="block-header block-header-default">
+                        <h3 class="block-title">
+                            Hello {{ auth()->user()->first_name." ".auth()->user()->last_name }}
+                        </h3>
+                    </div>
+                    <div class="block-content">
+                        <h3>
+                            Your account has been activated
+                        </h3>
+                        <p>
+                            Please goto your dashboard <a href="{{ route('user.dashboard') }}" class="btn btn-primary">Dashboard</a>
+                        </p>
+
+                    </div>
+                </div>
+                <!-- END Your Block -->
+            </div>
+        @endif
         <!-- END Page Content -->
     </main>
     <!-- END Main Container -->
